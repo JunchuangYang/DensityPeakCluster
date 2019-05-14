@@ -1,3 +1,19 @@
+[Source](https://github.com/lanbing510/DensityPeakCluster)
+
+最近在学习密度峰值聚类算法，相对此算法进行改进然后出一篇论文。于是乎在github上开始搜索，发现了[lanbing510](https://github.com/lanbing510)/**DensityPeakCluster**写的算法。down下来进行学习，对代码中加了一些中文注释，方便日后自己查看。原算法地址如上。
+
+
+
+
+
+
+
+
+
+
+
+
+
 # DensityPeakCluster
 
 Python Code For 'Clustering By Fast Search And Find Of Density Peaks' In Science 2014
@@ -44,7 +60,7 @@ jain
 
 
 ## How to Use
-  
+
 Step0: If your data is not the distance between points but the points' vector, write you distance builder in distance like distance_builder_data_spiral.py.  
 Step1: Change the data file in step1_choose_center.py, then run it to choose cluster threshold.  
 Step2: Change the data file and threshold in step2_cluster.py, then run it.  
